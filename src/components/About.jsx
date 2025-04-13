@@ -46,20 +46,20 @@ const About = () => {
               </p>
             ))}
 
-            <div className="mt-8 pt-6 border-t border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="text-center glass-card p-4 fondo2 hover2">
+            <div className="mt-8 pt-6 border-t border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-4 hover2">
+              <div className="text-center glass-card p-4 fondo2">
                 <div className="text-3xl text-secondary font-bold colorletra3">1+</div>
                 <div className="colorletra4">Años de Experiencia</div>
               </div>
-              <div className="text-center glass-card p-4 fondo2 hover2">
+              <div className="text-center glass-card p-4 fondo2">
                 <div className="text-3xl text-secondary font-bold colorletra3">2+</div>
                 <div className="colorletra4">Proyectos Completados</div>
               </div>
-              <div className="text-center glass-card p-4 fondo2 hover2">
+              <div className="text-center glass-card p-4 fondo2">
                 <div className="text-3xl text-secondary font-bold colorletra3">3+</div>
                 <div className="colorletra4">Tecnologías</div>
               </div>
-              <div className="text-center glass-card p-4 fondo2 hover2">
+              <div className="text-center glass-card p-4 fondo2">
                 <div className="text-3xl text-secondary font-bold colorletra3">3+</div>
                 <div className="colorletra4">Clientes Satisfechos</div>
               </div>

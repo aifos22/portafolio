@@ -140,7 +140,7 @@
 }
 
 .hover2 :hover {
-  transform: scale(1.0);
+  transform: scale(1.05);
   transition: 900ms;
 }
 
@@ -154,14 +154,10 @@
 
 .colorletra4hover:hover {
   color: #7360f9;
-  border-radius: 12px;
-  border: 1px, #7360f9;
+  /*border-radius: 14px;*/
+  border-bottom: 3px solid #7360f9 !important;
+  padding: 1px;
   cursor: pointer;
   transform: scale(1.05);
   transition: 700ms;
-}
-
-.tamaño:hover {
-  transform: scale(1.0);
-  transition: 900ms;
 }

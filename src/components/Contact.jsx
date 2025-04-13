@@ -133,7 +133,7 @@ const Contact = () => {
               <h3 className="colorletra4 text-xl font-semibold mb-4 text-center">
                 Redes Sociales
               </h3>
-              <div className="flex justify-center flex-wrap gap-6">
+              <div className="hover2  flex justify-center flex-wrap gap-6">
                 {contact.socialMedia.map((social, index) => (
                   <a
                     key={index}
@@ -142,7 +142,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group"
                   >
-                    <div className="colortitulo hover2 hoverletra w-12 h-12 rounded-full flex items-center justify-center transition-all botoninicio2 ">
+                    <div className="colortitulo hoverletra w-12 h-12 rounded-full flex items-center justify-center transition-all botoninicio2 ">
                       {getIcon(social.icon)}
                     </div>
                     <span className="mt-2 colorletra4">{social.name}</span>

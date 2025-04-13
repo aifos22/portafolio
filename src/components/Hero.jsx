@@ -36,16 +36,16 @@ const Hero = () => {
           <p className="text-lg text-gray-700 mb-8 max-w-lg mx-auto md:mx-0">
             {personal.shortBio}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="hover2 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="#projects"
-              className="hover2 inline-block text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
+              className="inline-block text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
             >
               Mis Proyectos
             </a>
             <a
               href="#contact"
-              className="hover2 inline-block text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
+              className="inline-block text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
             >
               Contáctame
             </a>

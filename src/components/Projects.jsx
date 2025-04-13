@@ -3,7 +3,7 @@ import projectsData from "../data/projects.json";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className=" hover2 fondo glass-card overflow-hidden transition-all duration-300 hover:shadow-lg">
+    <div className="fondo glass-card overflow-hidden transition-all duration-300 hover:shadow-lg">
       <div className="h-48 overflow-hidden">
         <img
           src={project.image}
