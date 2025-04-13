@@ -21,7 +21,6 @@
     "liveUrl": "https://task-manager-app.vercel.app",
     "githubUrl": "https://github.com/janedoe/task-manager",
     "tags": [
-      "React",
       "Node.js",
       "Html",
       "Css"

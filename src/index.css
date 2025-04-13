@@ -98,6 +98,7 @@
 
 .botongit:hover {
   background-color: #B9D440 !important;
+  cursor: pointer;
 }
 
 .colorlinea {
@@ -138,7 +139,7 @@
   font-weight: 700;
 }
 
-.hover2:hover {
+.hover2 :hover {
   transform: scale(1.0);
   transition: 900ms;
 }
@@ -153,6 +154,14 @@
 
 .colorletra4hover:hover {
   color: #7360f9;
+  border-radius: 12px;
+  border: 1px, #7360f9;
+  cursor: pointer;
   transform: scale(1.05);
   transition: 700ms;
+}
+
+.tamaño:hover {
+  transform: scale(1.0);
+  transition: 900ms;
 }
