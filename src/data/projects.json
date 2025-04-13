@@ -17,7 +17,7 @@
     "id": 2,
     "name": "Proyecto Landing Page",
     "description": "Creación de Landing Page de la Clínica Cuerpo y Mente. Se muestra la estética propuesta para Sitio ofical de la clínica. ",
-    "image": "https://images.unsplash.com/photo-1504292004442-f285299403fa?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "./hospital.jpg",
     "liveUrl": "https://task-manager-app.vercel.app",
     "githubUrl": "https://github.com/janedoe/task-manager",
     "tags": [

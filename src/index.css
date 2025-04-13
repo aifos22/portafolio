@@ -56,7 +56,7 @@
   }
 
   section {
-    @apply py-20 px-6 md:px-12 lg:px-24;
+    @apply py-8 px-6 md:px-12 lg:px-24;
   }
 
   .glass-card {
@@ -71,6 +71,14 @@
 
 .botoninicio:hover {
   background-color: #B9D440 !important;
+}
+
+.botoninicio2 {
+  background-color: #B9D440;
+}
+
+.botoninicio2:hover {
+  background-color: #BC9BF3;
 }
 
 .tagsboton {
@@ -94,14 +102,6 @@
 
 .colorlinea {
   background-color: #B9D440;
-}
-
-.colorletra {
-  color: #be8dec;
-}
-
-.colorletra2 {
-  color: blueviolet;
 }
 
 .colorletra3 {
@@ -139,6 +139,20 @@
 }
 
 .hover2:hover {
-  transform: scale(1.08);
+  transform: scale(1.0);
   transition: 900ms;
+}
+
+.hoverletra:hover {
+  color: #f9f4f2;
+}
+
+.hoverletra2 {
+  color: #7360f9;
+}
+
+.colorletra4hover:hover {
+  color: #7360f9;
+  transform: scale(1.05);
+  transition: 700ms;
 }

@@ -142,10 +142,10 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group"
                   >
-                    <div className="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all tagsboton">
+                    <div className="colortitulo hover2 hoverletra w-12 h-12 rounded-full flex items-center justify-center transition-all botoninicio2 ">
                       {getIcon(social.icon)}
                     </div>
-                    <span className="mt-2 text-gray-700 colorletra4">{social.name}</span>
+                    <span className="mt-2 colorletra4">{social.name}</span>
                   </a>
                 ))}
               </div>

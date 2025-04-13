@@ -18,29 +18,29 @@ const Navbar = () => {
   const navLinks = [
     { name: "Inicio", href: "#home" },
     { name: "¿Quién soy?", href: "#about" },
-    { name: "Mis Proyectos", href: "#projects" },
+    { name: "Proyectos", href: "#projects" },
     { name: "Contáctame", href: "#contact" },
   ];
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+      className={`fondo4 fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
         ? "bg-white bg-opacity-80 backdrop-blur-sm shadow-md py-3"
         : "bg-transparent py-5"
         }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold text-primary">
+        <a href="#home" className="text-xl font-bold colorletra4">
           Portfolio
         </a>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-10">
           {navLinks.map((link, index) => (
             <a
               key={index}
               href={link.href}
-              className="text-foreground hover:text-secondary transition-colors"
+              className="colorletra4 colorletra4hover transition-colors"
             >
               {link.name}
             </a>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation Toggle */}
         <button
-          className="md:hidden text-foreground"
+          className="colorletra4 md:hidden text-foreground"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (
@@ -69,6 +69,7 @@ const Navbar = () => {
             </svg>
           ) : (
             <svg
+              className="colorletra4"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -88,23 +89,25 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navigation Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden bg-white bg-opacity-95 backdrop-blur-sm">
-          <div className="container mx-auto px-6 py-4 flex flex-col space-y-4">
-            {navLinks.map((link, index) => (
-              <a
-                key={index}
-                href={link.href}
-                className="text-foreground hover:text-secondary transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {link.name}
-              </a>
-            ))}
+      {
+        mobileMenuOpen && (
+          <div className="md:hidden fondo4 bg-opacity-95 backdrop-blur-sm">
+            <div className="container mx-auto px-6 py-4 flex flex-col space-y-4">
+              {navLinks.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.href}
+                  className="colorletra4 colorletra4hover"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {link.name}
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
-    </nav>
+        )
+      }
+    </nav >
   );
 };
 

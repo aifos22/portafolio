@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center fondo4 bg-gradient-to-b from-background"
+      className="min-h-screen flex items-center justify-center fondo4 bg-gradient-to-b from-[#BC9BF3] to-[#f9f4f2]"
     >
       <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left animate-fade-in">
@@ -39,13 +39,13 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="#projects"
-              className="inline-block bg-secondary hover:bg-secondary/90 text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
+              className="hover2 inline-block text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
             >
               Mis Proyectos
             </a>
             <a
               href="#contact"
-              className="inline-block bg-white hover:bg-secondary/90 text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
+              className="hover2 inline-block text-white py-3 px-8 rounded-lg shadow-lg transition-colors botoninicio"
             >
               Contáctame
             </a>

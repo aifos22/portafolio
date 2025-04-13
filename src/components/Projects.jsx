@@ -3,7 +3,7 @@ import projectsData from "../data/projects.json";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className=" fondo glass-card overflow-hidden transition-all duration-300 hover:shadow-lg">
+    <div className=" hover2 fondo glass-card overflow-hidden transition-all duration-300 hover:shadow-lg">
       <div className="h-48 overflow-hidden">
         <img
           src={project.image}
@@ -82,7 +82,7 @@ const Projects = () => {
   }
 
   return (
-    <section id="projects" className="fondo4 bg-gradient-to-b from-background ">
+    <section id="projects" className="fondo4 bg-gradient-to-b from-[#f9f4f2] to-[#BC9BF3] ">
       <div className="container mx-auto">
         <div className="text-center mb-12 colortitulo">
           <h2 className="text-3xl md:text-4xl font-bold">Mis Proyectos</h2>
