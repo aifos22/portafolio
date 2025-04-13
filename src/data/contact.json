@@ -1,0 +1,15 @@
+{
+  "email": "sofia.cpa22@gmail.com",
+  "socialMedia": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sof%C3%ADa-pimentel-acu%C3%B1a/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/aifos22",
+      "icon": "github"
+    }
+  ]
+}
