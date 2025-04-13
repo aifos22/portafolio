@@ -18,8 +18,8 @@
     "name": "Poke Api",
     "description": "Aplicación web interactiva con diseño moderno, que muestra tarjetas de Pokémon con sus imágenes, nombres, tipos y estadísticas, todo alimentado desde la API oficial de Pokémon. ",
     "image": "./pikachu.jpg",
-    "liveUrl": "https://task-manager-app.vercel.app",
-    "githubUrl": "https://github.com/janedoe/task-manager",
+    "liveUrl": "https://miprimerpokeapi.netlify.app/",
+    "githubUrl": "https://github.com/aifos22/pokeapi",
     "tags": [
       "Node.js",
       "Html",
