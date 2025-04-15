@@ -63,7 +63,7 @@ Me destaco por mi capacidad de trabajo en equipo, comunicación con stakeholders
 ## 📫 Contacto
 
 - 📧 Email: sofia.cpa22@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/sofiapimentel](https://linkedin.com/in/sofiapimentel)  
+- 💼 LinkedIn: [https://www.linkedin.com/in/sof%C3%ADa-pimentel-acu%C3%B1a/]
 - 🧠 Portfolio online: [portafolio-sofia.netlify.app](https://portafolio-sofia.netlify.app)
 
 ---
