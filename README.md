@@ -1,184 +1,71 @@
-# Portafolio Web Profesional
+# ✨ Portafolio Profesional – Sofía Pimentel
 
-Un portafolio profesional de una sola página (One Page) orientado al sector tecnológico, construido con React y diseñado para mostrar tu experiencia, proyectos y datos de contacto de forma elegante y dinámica.
+## 📌 Descripción
 
-## Descripción
+Este portafolio fue desarrollado como parte del **Taller Práctico: Desarrollo de un Portafolio Profesional** en el Bootcamp de Desarrollo Front-End en **Adalid**, con el objetivo de integrar y presentar los aprendizajes adquiridos a lo largo del curso. Contiene una recopilación de proyectos digitales enfocados en **UX/UI** y **desarrollo front-end**, incluyendo el proyecto final, así como otros trabajos significativos realizados durante el programa.
 
-Este proyecto es un portafolio web personal responsivo que carga dinámicamente toda la información desde archivos JSON. Está diseñado para desarrolladores y profesionales del sector tecnológico que desean mostrar su trabajo de forma profesional y personalizable sin necesidad de modificar código fuente.
+## 🧠 Objetivos
 
-![Web](public/web.jpeg)
+- Mostrar habilidades y competencias adquiridas en diseño UX/UI y desarrollo web.
+- Aplicar buenas prácticas de documentación, estructura de código y despliegue.
+- Reflejar la evolución del proyecto final con base en feedback recibido durante el curso.
 
-## Características Principales
+## 🛠️ Tecnologías utilizadas
 
-- **Diseño Responsivo**: Se adapta a cualquier dispositivo (móvil, tablet, escritorio)
-- **Carga Dinámica**: Toda la información se carga desde archivos JSON fácilmente editables
-- **Secciones Completas**: Inicio, Sobre Mí, Proyectos y Contacto
-- **Personalizable**: Fácil de adaptar a tus necesidades cambiando solo los archivos JSON
-- **Moderno**: Construido con React y Tailwind CSS para un diseño limpio y actual
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **JavaScript / HTML / CSS**
+- **Netlify** (para despliegue)
+- **Git & GitHub**
+- **Figma** (para prototipado)
+- Metodologías: **Scrum**, **Design Thinking**
 
-## Tecnologías Utilizadas 🛠️
-
-- [React](https://reactjs.org/) - Biblioteca JavaScript para construir interfaces de usuario
-- [Vite](https://vitejs.dev/) - Herramienta de desarrollo rápida para React
-- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS de utilidad para el diseño
-- [shadcn/ui](https://ui.shadcn.com/) - Componentes de UI reutilizables y accesibles
-
-## Comenzando 🚀
-
-Estas instrucciones te permitirán obtener una copia del proyecto funcionando en tu entorno local para propósitos de desarrollo y pruebas.
-
-### Prerrequisitos 📋
-
-Para ejecutar este proyecto necesitas tener instalado:
-
-- [Node.js](https://nodejs.org/) (v14.0.0 o superior)
-- [npm](https://www.npmjs.com/) (v6.0.0 o superior)
-
-### Instalación 🔧
-
-1. Clona el repositorio:
-
-```bash
-git clone git clone https://github.com/adalid-cl/portafolio-web-react.git
-cd portafolio-web-react
-```
-
-2. Instala las dependencias:
-
-```bash
-npm install
-```
-
-3. Inicia el servidor de desarrollo:
-
-```bash
-npm run dev
-```
-
-4. Abre tu navegador en `http://localhost:8080`
-
-## Estructura del Proyecto 📁
+## 📁 Estructura del Portafolio
 
 ```
 src/
-├── components/       # Componentes reutilizables
-│   ├── Navbar.jsx    # Barra de navegación
-│   ├── Hero.jsx      # Sección principal (inicio)
-│   ├── About.jsx     # Sección Sobre Mí
-│   ├── Projects.jsx  # Sección de Proyectos
-│   ├── Contact.jsx   # Sección de Contacto
-│   └── Footer.jsx    # Pie de página
-├── data/             # Archivos JSON con la información del portafolio
-│   ├── personal.json # Información personal (nombre, bio, etc.)
-│   ├── projects.json # Lista de proyectos
-│   └── contact.json  # Información de contacto y redes sociales
-└── pages/            # Páginas de la aplicación
-    └── Index.tsx     # Página principal que muestra todas las secciones
+├── components/       # Componentes reutilizables (Navbar, Hero, About, etc.)
+├── data/             # Archivos JSON con información personal, proyectos y contacto
+└── pages/            # Página principal que integra todas las secciones
 ```
 
-## Personalización 🎨
+## 🔗 Enlaces importantes
 
-El portafolio está diseñado para ser fácilmente personalizable modificando los archivos JSON en la carpeta `src/data/`.
+- 🌐 **Portafolio desplegado:** [https://portafolio-sofia.netlify.app/](https://portafolio-sofia.netlify.app/)
+- 💻 **Repositorio GitHub:** [https://github.com/aifos22/portafolio]
 
-### Modificar Información Personal
+## 📋 Feedback y mejoras implementadas
 
-Edita el archivo `src/data/personal.json`:
+Durante el desarrollo del portafolio y del proyecto final, recibí retroalimentación valiosa por parte de docentes y compañeros/as. Gracias a ello, realicé mejoras en:
 
-```json
-{
-  "name": "Tu Nombre",
-  "profession": "Tu Profesión",
-  "shortBio": "Una breve descripción sobre ti",
-  "fullBio": "Una descripción más detallada de tu experiencia y habilidades...",
-  "avatarUrl": "URL de tu foto de perfil"
-}
-```
+- Claridad en la jerarquía visual y diseño responsive
+- Documentación detallada del proyecto final
+- Refactorización de componentes para mayor mantenibilidad
+- Optimización en accesibilidad y usabilidad
 
-### Modificar Proyectos
+## 🚀 Despliegue
 
-Edita el archivo `src/data/projects.json`:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Nombre del Proyecto",
-    "description": "Descripción del proyecto",
-    "image": "URL de la imagen del proyecto",
-    "tags": ["React", "Node.js", "MongoDB"],
-    "githubUrl": "URL del repositorio en GitHub",
-    "liveUrl": "URL del proyecto en vivo"
-  }
-  // Añade más proyectos aquí
-]
-```
-
-### Modificar Información de Contacto
-
-Edita el archivo `src/data/contact.json`:
-
-```json
-{
-  "email": "tu.email@ejemplo.com",
-  "socialMedia": [
-    {
-      "name": "LinkedIn",
-      "url": "https://linkedin.com/in/tuusuario",
-      "icon": "linkedin"
-    }
-    // Añade más redes sociales aquí
-  ]
-}
-```
-
-## Despliegue 📦
-
-Para crear una versión de producción y desplegarla:
-
-1. Construye el proyecto:
+El proyecto fue desplegado exitosamente en **Netlify**. El proceso de despliegue incluyó la creación del build de producción mediante:
 
 ```bash
 npm run build
 ```
 
-2. Los archivos generados estarán en la carpeta `dist/`, que puedes subir a cualquier servicio de hosting estático como:
-   - [Netlify](https://www.netlify.com/)
-   - [Vercel](https://vercel.com/)
-   - [GitHub Pages](https://pages.github.com/)
-   - [Surge](https://surge.sh/)
+Luego se subió la carpeta `dist/` al hosting, configurando correctamente el enrutamiento para SPA.
 
-## Personalizaciones Adicionales
+## 👩‍💻 Sobre mí
 
-### Cambiar Colores y Estilos
+**Diseñadora UX/UI y Desarrolladora Front-End Jr** con experiencia en diseño centrado en el usuario, desarrollo front-end y gestión de proyectos digitales. Creo experiencias web efectivas y atractivas, integrando tecnología moderna con un enfoque claro en las necesidades de las personas.  
+Me destaco por mi capacidad de trabajo en equipo, comunicación con stakeholders y resolución de problemas a través del diseño estratégico.
 
-Los estilos principales se controlan a través de Tailwind CSS. Puedes modificar los colores y otros aspectos de diseño editando el archivo `tailwind.config.js`.
+## 📫 Contacto
 
-### Añadir Nuevas Secciones
-
-Para añadir nuevas secciones al portafolio:
-
-1. Crea un nuevo componente en la carpeta `components/`
-2. Añade los datos necesarios a los archivos JSON existentes o crea uno nuevo
-3. Importa y añade el componente en `pages/Index.tsx`
-
-## Contribuciones 🤝
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Haz un Fork del proyecto
-2. Crea una rama para tu funcionalidad (`git checkout -b feature/amazing-feature`)
-3. Haz commit de tus cambios (`git commit -m 'Add some amazing feature'`)
-4. Empuja la rama (`git push origin feature/amazing-feature`)
-5. Abre un Pull Request
-
-## Licencia 📄
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
-
-## Autores
-
-- **Brayan Diaz C** - _Trabajo inicial_ - [Brayan Diaz C](https://github.com/brayandiazc)
+- 📧 Email: sofia.cpa22@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/sofiapimentel](https://linkedin.com/in/sofiapimentel)  
+- 🧠 Portfolio online: [portafolio-sofia.netlify.app](https://portafolio-sofia.netlify.app)
 
 ---
 
-⌨️ con ❤️ por [Adalid CL](https://github.com/adalid-cl) 😊
+¿Te gustaría que lo deje también en un archivo `.md` descargable por si lo quieres subir directo como `README.md` al repo?
